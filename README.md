@@ -10,7 +10,7 @@ This documentation provides an overview of the backend API for the irrigation sy
 
 ### Disclaimer
 
-This project is not complete. Containerization is still on its way. However, Technical Difficulties with MacBook's M1 Chip arisen with no good image for Java Spring's JDK 20. Provided is a Postman Collection that can be used to test the API.
+This project is not complete. Containerization is still on its way. However, Technical Difficulties with MacBook's M1 Chip arisen with no good image for Java Spring's JDK 20. Provided is a Postman Collection that can be used to test the API. However, Its work in progress and will be done.
 
 ### Getting Started
 
@@ -78,10 +78,11 @@ To start the application, follow these steps:
 ### Additional Notes
 
 - The provided APIs support basic CRUD operations for plots and time slots.
-- Time slots can be assigned to plots using the `assignTimeSlotToPlot` endpoint.
+- Time slots can be assigned to plots using the `assignTimeSlotToPlot` endpoint or just running the Postman Collection endpoint for creating a TimeSlot. It will be auto assigned to a plot.
 - It is recommended to add more time slots if the system runs out of available time slots to assign.
+- Information about the assignment will be available through the terminal.
 
 ### Acknowledgement
-
+Thank you for checking out my project. :)
 
 If you have any further questions or need additional assistance, please feel free to ask.
