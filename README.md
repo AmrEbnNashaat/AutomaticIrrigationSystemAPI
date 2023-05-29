@@ -81,6 +81,7 @@ To start the application, follow these steps:
 - Time slots can be assigned to plots using the `assignTimeSlotToPlot` endpoint or just running the Postman Collection endpoint for creating a TimeSlot. It will be auto assigned to a plot.
 - It is recommended to add more time slots if the system runs out of available time slots to assign.
 - Information about the assignment will be available through the terminal.
+- in `the testing_containerzation` folder, you will find the docker-compose and the Dockerfile that is to be used to contaienrize the app. If you can help out, please do.
 
 ### Acknowledgement
 Thank you for checking out my project. :)
