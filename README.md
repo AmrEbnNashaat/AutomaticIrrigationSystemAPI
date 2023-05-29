@@ -75,6 +75,21 @@ To start the application, follow these steps:
 - Description: Retrieves all time slots.
 - Response: List of `TimeSlot` objects.
 
+##### Update a Time Slots
+
+- URL: `PUT /api/v1/timeslot/{id}`
+- Description: Updates an existing time slot.
+- Path Variable: `id` (Integer) - ID of the time slot to be updated.
+- Request Body: Updated `TimeSlot` object (JSON)
+- Response: Updated `TimeSlot` object.
+
+##### Delete a Time Slot
+- URL: `DELETE /api/v1/timeslot/{id}`
+- Description: Deletes a time slot.
+- Path Variable: `id` (Integer) - ID of the time slot to be deleted.
+- Response: Success message.
+
+
 ### Additional Notes
 
 - The provided APIs support basic CRUD operations for plots and time slots.
