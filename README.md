@@ -10,7 +10,7 @@ This documentation provides an overview of the backend API for the irrigation sy
 
 ### Disclaimer
 
-Please note that due to technical difficulties with running Docker on a MacBook with an M1 chip, containerizing the entire application using Docker has not been possible. As a result, the provided documentation assumes manual setup of the database and running the application locally.
+This project is not complete. Containerization is still on its way. However, Technical Difficulties with MacBook's M1 Chip arisen with no good image for Java Spring's JDK 20. Provided is a Postman Collection that can be used to test the API.
 
 ### Getting Started
 
@@ -83,6 +83,5 @@ To start the application, follow these steps:
 
 ### Acknowledgement
 
-Thank you for providing this task. It has been a great learning experience, and it has reaffirmed my knowledge of Java Spring Boot. I appreciate the opportunity to discuss the technical difficulties faced during the interview. I look forward to the possibility of meeting you in person for an interview.
 
 If you have any further questions or need additional assistance, please feel free to ask.
